@@ -5,8 +5,6 @@ An application that provides encrypted voice calls for Android.
 
 SecureLine is an application that enables encrypted voice communication between SecureLine users.  SecureLine integrates with the system dialer to provide a frictionless call experience, but uses ZRTP to setup an encrypted VoIP channel for the actual call.  SecureLine was designed specifically for mobile devices, using audio codecs and buffer algorithms tuned to the characteristics of mobile networks, and using push notifications to maximally preserve your device's battery life while still remaining responsive.
 
-Currently available on the Play store.
-
 Cryptography Notice
 ------------
 
