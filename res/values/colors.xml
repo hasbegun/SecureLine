@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <!-- Background color of dialpad -->
+    <color name="background_dialpad">#ffffff</color>
+    <!-- Pressed color of dialpad buttons -->
+    <color name="background_dialpad_pressed">#ececec</color>
+
+</resources>

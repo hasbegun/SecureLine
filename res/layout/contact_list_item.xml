@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:layout_marginLeft="16dip"
+              android:layout_marginRight="16dip">
+
+    <ImageView android:id="@+id/divider"
+               android:layout_width="fill_parent"
+               android:layout_height="1px"
+               android:src="@drawable/contacts_list_divider" />
+
+    <TextView android:id="@+id/section_label"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="4dp"
+              android:layout_marginBottom="4dp"
+              android:visibility="gone"
+              android:textColor="#33b5e5"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textStyle="bold" />
+
+    <View android:id="@+id/section_divider"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:visibility="gone"
+          android:background="#33b5e5" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeight"
+                    android:paddingRight="25dip">
+
+        <ImageView android:id="@+id/contact_photo_image"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginLeft="10dp"
+                   android:cropToPadding="true"
+                   android:scaleType="centerCrop" />
+
+        <TextView android:id="@+id/number"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dip"
+                  android:layout_marginTop="-8dip"
+                  android:layout_marginLeft="14dip"
+                  android:layout_alignParentBottom="true"
+                  android:singleLine="true"
+                  android:ellipsize="marquee"
+                  android:layout_toRightOf="@id/contact_photo_image"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:fontFamily="sans-serif-light" />
+
+        <TextView android:id="@+id/name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@id/number"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginBottom="1dip"
+                  android:layout_marginLeft="14dip"
+                  android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                  android:singleLine="true"
+                  android:ellipsize="marquee"
+                  android:layout_toRightOf="@id/contact_photo_image"
+                  android:gravity="center_vertical|left"
+                  android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView android:id="@+id/type"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignBaseline="@id/number"
+                  android:layout_alignParentRight="true"
+                  android:singleLine="true"
+                  android:ellipsize="end"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textColor="?android:attr/textColorSecondary"/>
+
+    </RelativeLayout>
+</LinearLayout>

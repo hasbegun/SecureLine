@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RegisterEditText" parent="@android:style/TextAppearance">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextSecureDialogWindowTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#fffe5910</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:listDividerAlertDialog">@android:color/transparent</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:verticalDivider">@android:color/transparent</item>
+        <item name="android:dividerHeight">@android:color/transparent</item>
+        <item name="android:childDivider">@android:color/transparent</item>
+        <item name="android:dividerVertical">@android:color/transparent</item>
+    </style>
+
+
+    <style name="RedPhone.Light.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/TextSecureDialogWindowTitle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:textColor">#ff222222</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+
+        <item name="android:listPreferredItemPaddingLeft">16dip</item>
+        <item name="android:listPreferredItemPaddingRight">16dip</item>
+        <item name="android:listPreferredItemPaddingStart">16dip</item>
+        <item name="android:listPreferredItemPaddingEnd">16dip</item>
+    </style>
+
+</resources>
