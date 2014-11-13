@@ -1,48 +1,13 @@
-RedPhone
+SecureLine
 =================
 
 An application that provides encrypted voice calls for Android.
 
-RedPhone is an application that enables encrypted voice communication between RedPhone users.  RedPhone integrates with the system dialer to provide a frictionless call experience, but uses ZRTP to setup an encrypted VoIP channel for the actual call.  RedPhone was designed specifically for mobile devices, using audio codecs and buffer algorithms tuned to the characteristics of mobile networks, and using push notifications to maximally preserve your device's battery life while still remaining responsive.
+SecureLine is an application that enables encrypted voice communication between SecureLine users.  SecureLine integrates with the system dialer to provide a frictionless call experience, but uses ZRTP to setup an encrypted VoIP channel for the actual call.  SecureLine was designed specifically for mobile devices, using audio codecs and buffer algorithms tuned to the characteristics of mobile networks, and using push notifications to maximally preserve your device's battery life while still remaining responsive.
 
 Currently available on the Play store.
 
-*[![Play Store Badge](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=org.thoughtcrime.redphone)*
-
-Current BitHub Payment Per Commit:
-=================
-![Current Price](https://bithub.herokuapp.com/v1/status/payment/commit/)
-
-Bug tracker
------------
-
-Have a bug? Please create an issue here on GitHub!
-
-https://github.com/WhisperSystems/RedPhone/issues
-
-
-Documentation
--------------
-
-Looking for documentation? Check out the wiki!
-
-https://github.com/WhisperSystems/RedPhone/wiki
-
-Mailing list
-------------
-
-Have a question? Ask on our mailing list!
-
-whispersystems@lists.riseup.net
-
-https://lists.riseup.net/www/info/whispersystems
-
-Translation
-------------
-
-Interested in helping to translate RedPhone? Contribute here:
-
-https://www.transifex.com/projects/p/redphone/
+*[![Play Store Badge](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=org.thoughtcrime.RedPhone)*
 
 Cryptography Notice
 ------------
@@ -56,7 +21,5 @@ The form and manner of this distribution makes it eligible for export under the 
 
 License
 ---------------------
-
-Copyright 2012 Whisper Systems
 
 Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
